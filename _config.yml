@@ -1,28 +1,28 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: Young Blog
+SEOTitle: 羊羊羊的进击之路 | Young Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: yuyangkobe@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "Young, Young Blog, 羊羊羊的进击之路, python"
+url: "http://yuyangkobe.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/yuyangkobe/yuyangkobe.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Stay Hungry! Stay Foolish!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+weibo_username:     15229329877
+# zhihu_username:     yuyangkobe
+github_username:    yuyangkobe
+#facebook_username:  baiying.qiu.7
+jianshu_username:   6c3733213082
 #twitter_username:   qiubaiying
 
 
