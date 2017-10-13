@@ -1,9 +1,9 @@
 # Site settings
-title: Young Blog
+title: 羊羊羊的进击之路
 SEOTitle: 羊羊羊的进击之路 | Young Blog
 header-img: img/post-bg-desk.jpg
 email: yuyangkobe@gmail.com
-description: "Every failure is leading towards success."
+description: "不积跬步，无以至千里，不积小流，无以成江海。"
 keyword: "Young, Young Blog, 羊羊羊的进击之路, python"
 url: "http://yuyangkobe.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -50,7 +50,7 @@ gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
 
 
@@ -69,11 +69,11 @@ disqus_username:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto
 
 
 
@@ -94,16 +94,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "简书·Young",
+        href: "http://www.jianshu.com/u/6c3733213082"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "python3",
+        href: "https://docs.python.org/3/"
     }
 ]
