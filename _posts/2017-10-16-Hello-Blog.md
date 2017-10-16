@@ -11,7 +11,7 @@ tags:
     - Git
 ---
 
-花了3天时间, 终于完成了这个github page上搭建的blog.
+花了3天时间, 终于完成在github page上搭建blog.
 感谢[clean blog](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/), 感谢[Hux Blog](https://github.com/Huxpro/huxpro.github.io), 感谢[BY Blog](https://github.com/qiubaiying/qiubaiying.github.io)
 
 ## 下载代码
