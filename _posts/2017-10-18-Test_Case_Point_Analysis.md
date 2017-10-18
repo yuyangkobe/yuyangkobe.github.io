@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Test Case Point Analysis-测试点分析
-subtitle:   
+title:      Test Case Point Analysis
+subtitle:   测试点分析
 date:       2017-10-18
 author:     Young
 header-img: img/post-bg-2015.jpg
