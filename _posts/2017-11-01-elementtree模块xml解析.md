@@ -15,11 +15,13 @@ tags:
 ### 获取xml文件
 
 - 在当前路径下获取xml
+
 ``` tree = ET.ElementTree(file=文件名)  # 文件名为字符串类型```
 
 ### 获取xml根节点
 
 - 使用elementtree中tree对象的getroot()来获得当前xml的根节点
+
 ```root = tree.getroot()```
 
 ### 获取各节点的值
