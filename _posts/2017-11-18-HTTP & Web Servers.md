@@ -43,39 +43,39 @@ Nmap（网络映射器）是一款用于网络发现和安全审计的网络安�
 
 - Nmap 基本语法
 
-'''
+```
 nmap [ <扫描类型> ...] [ <选项> ] { <扫描目标说明> }
-'''
+```
 
 - 全面进攻性扫描（包括各种主机发现、端口扫描、版本扫描、OS扫描及默认脚本扫描）:
 
-'''
+```
 nmap -A -v targetip
-'''
+```
 
 - Ping扫描:
 
-'''
+```
 nmap -sn -v targetip
-'''
+```
 
 - 快速端口扫描:
 
-'''
+```
 nmap -F -v targetip
-'''
+```
 
 - 版本扫描:
 
-'''
+```
 nmap -sV -v targetip 
-'''
+```
 
 - 操作系统扫描:
 
-'''
+```
 nmap -O -v targetip
-'''
+```
 
 5. 服务器和客户端的简单交互示例
 ![服务器和客户端的简单交互示例](img/in_post/HTTP-WebServer_pic/01.png)
@@ -88,8 +88,7 @@ nmap -O -v targetip
 
 ### Hostnames
 
-	A full HTTP or HTTPS URI includes the hostname of the web server, like **www.udacity.com** or **www.un.int** or **www.cheeseboardcollective.coop** (my favorite pizza place in the world, in Berkeley CA). A hostname in a URI can also be an IP address: for instance, if you put [http://216.58.194.174/](http://216.58.194.174/) in your browser, you'll end up at Google.
+	A full HTTP or HTTPS URI includes the hostname of the web server, like `www.udacity.com` or `www.un.int` or `www.cheeseboardcollective.coop` (my favorite pizza place in the world, in Berkeley CA). A hostname in a URI can also be an IP address: for instance, if you put [http://216.58.194.174/](http://216.58.194.174/) in your browser, you'll end up at Google.
 
-'''
+- **note**
 Why is it called a hostname? In network terminology, a host is a computer on the network; one that could host services.
-'''
