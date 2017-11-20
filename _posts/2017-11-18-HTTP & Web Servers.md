@@ -42,43 +42,37 @@ Nmap通常用在信息搜集阶段，用于搜集目标机主机的基本状态�
 Nmap不仅可以用于扫描单个主机，也可以适用于扫描大规模的计算机网络（例如，扫描英特网上数万台计算机，从中找出感兴趣的主机和服务）。
 
 - Nmap 基本语法
-
 ```
 nmap [ <扫描类型> ...] [ <选项> ] { <扫描目标说明> }
 ```
 
 - 全面进攻性扫描（包括各种主机发现、端口扫描、版本扫描、OS扫描及默认脚本扫描）:
-
 ```
 nmap -A -v targetip
 ```
 
 - Ping扫描:
-
 ```
 nmap -sn -v targetip
 ```
 
 - 快速端口扫描:
-
 ```
 nmap -F -v targetip
 ```
 
 - 版本扫描:
-
 ```
 nmap -sV -v targetip 
 ```
 
 - 操作系统扫描:
-
 ```
 nmap -O -v targetip
 ```
 
-5. 服务器和客户端的简单交互示例
-![服务器和客户端的简单交互示例](img/in_post/HTTP-WebServer_pic/01.png)
+服务器和客户端的简单交互示例
+![服务器和客户端的简单交互示例](/img/in_post/HTTP-WebServer_pic/01.png)
 
 ## Your first web server
 
