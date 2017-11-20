@@ -18,17 +18,17 @@ tags:
 
 ### 环境要求
 
-1.需要用到linux系统
-- [在win10上如何安装linux](https://msdn.microsoft.com/en-us/commandline/wsl/install-win10)
+#### 需要用到linux系统
+[在win10上如何安装linux](https://msdn.microsoft.com/en-us/commandline/wsl/install-win10)
 
-2.python3
-- 在linux系统中，python可能装了两个版本。terminal中的python命令一般指python2，而python3指的python3。这里需要加以区分。
+#### python3
+在linux系统中，python可能装了两个版本。terminal中的python命令一般指python2，而python3指的python3。这里需要加以区分。
 
-3.Git
-- 通过git去得课程的源码。
+#### Git
+通过git去得课程的源码。
 
-4.Nmap
-- Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具，它是自由软件。软件名字Nmap是Network Mapper的简称。通常情况下，Nmap用于：
+#### Nmap
+Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具，它是自由软件。软件名字Nmap是Network Mapper的简称。通常情况下，Nmap用于：
 	- 列举网络主机清单
 	- 管理服务升级调度
 	- 监控主机
@@ -69,7 +69,7 @@ nmap -sV -v targetip
 nmap -O -v targetip
 ```
 
-服务器和客户端的简单交互示例
+####服务器和客户端的简单交互示例
 ![服务器和客户端的简单交互示例](/img/in_post/HTTP-WebServer_pic/01.png)
 
 ## Your first web server
