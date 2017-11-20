@@ -28,9 +28,7 @@ tags:
 通过git去得课程的源码。
 
 4. Nmap
-
 Nmap（网络映射器）是一款用于网络发现和安全审计的网络安全工具，它是自由软件。软件名字Nmap是Network Mapper的简称。通常情况下，Nmap用于：
-
 - 列举网络主机清单
 - 管理服务升级调度
 - 监控主机
@@ -83,6 +81,5 @@ nmap -O -v targetip
 ### Hostnames
 
 A full HTTP or HTTPS URI includes the hostname of the web server, like `www.udacity.com` or `www.un.int` or `www.cheeseboardcollective.coop` (my favorite pizza place in the world, in Berkeley CA). A hostname in a URI can also be an IP address: for instance, if you put [http://216.58.194.174/](http://216.58.194.174/) in your browser, you'll end up at Google.
-
 - **note**
 Why is it called a hostname? In network terminology, a host is a computer on the network; one that could host services.
