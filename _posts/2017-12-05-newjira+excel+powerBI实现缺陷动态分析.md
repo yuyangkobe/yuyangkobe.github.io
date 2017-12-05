@@ -36,7 +36,7 @@ tags:
 
 
 - 场景3：如何快速用自己的缺陷分析模板分析版本
-``在newjira中导出对应版本所有bug的excel（注意：需要导出所有节点），只需将新版本的bug文件命名为构造模板的excel文件名即可``
+在newjira中导出对应版本所有bug的excel（注意：需要导出所有节点），只需将新版本的bug文件命名为构造模板的excel文件名即可
 ![场景3](/img/in_post/powerBI_pic/场景3.gif)
 
 ### 准备环境
