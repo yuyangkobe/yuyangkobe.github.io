@@ -8,6 +8,7 @@ header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - 缺陷分析
+    - 测试
 ---
 
 ### 难关痛

@@ -10,6 +10,7 @@ tags:
     - 测试分析
     - 测试用例
     - 用例复杂度测量
+    - 测试
 ---
 
 原文来自[Test Case Point Analysis](https://github.com/yuyangkobe/yuyangkobe.github.io/blob/master/media/Test_Case_Point_Analysis.pdf)
