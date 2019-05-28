@@ -39,13 +39,14 @@ MockServer允许团队针对不完整或不稳定的服务来展开开发，以�
 ## 环境搭建
 
 1. 安装java
+
 下载路径：[https://www.java.com/zh_CN/download/windows-64bit.jsp](https://www.java.com/zh_CN/download/windows-64bit.jsp)
 
 2. 下载Moco的jar包
+
 Moco：[https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 
 3. 在jar包目录下新建`settings.json`，输入以下内容
-
 ```
 [
     {
@@ -55,7 +56,6 @@ Moco：[https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 ```
 
 4. 在jar包目录下新建目录`TestAPI`，输入以下内容
-
 ```
 [
   {
@@ -78,7 +78,6 @@ Moco：[https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 ```
 
 5. 在TestAPI目录下新建`TestAPI_response.json`，输入以下内容
-
 ```
 [
   {
@@ -88,13 +87,11 @@ Moco：[https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 ```
 
 6. 打开终端，定位到jar包目录，命令行输入
-
 ```
 java -jar moco.jar start -p 8888 -g settings.json
 ```
 
 7. 打开浏览器，输入`127.0.0.1:8888/login`，点击回车后浏览器返回
-
 ```
 [
   {
